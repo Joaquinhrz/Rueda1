@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Spinning Wheel</string>
+
+    <string-array name="dummy">
+        <item>Hellraiser</item>
+        <item>LOTR</item>
+        <item>Silent Hill</item>
+        <item>Evil Dead</item>
+        <item>Suspiria</item>
+    </string-array>
+</resources>
