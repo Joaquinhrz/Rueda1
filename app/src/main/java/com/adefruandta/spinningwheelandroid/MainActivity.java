@@ -17,7 +17,6 @@ public class MainActivity extends AppCompatActivity implements SpinningWheelView
 
     private ImageButton rotate;
 
-    int randomNum = ThreadLocalRandom.current().nextInt(30, 99 + 1);
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -34,6 +33,8 @@ public class MainActivity extends AppCompatActivity implements SpinningWheelView
         rotate.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                int randomNum = ThreadLocalRandom.current().nextInt(30, 99 + 1);
+
                 // max angle 50
                 // duration 10 second
                 // every 50 ms rander rotation
