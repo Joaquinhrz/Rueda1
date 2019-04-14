@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">King Wheel</string>
+    <string name="defaultText">Lista</string>
 </resources>

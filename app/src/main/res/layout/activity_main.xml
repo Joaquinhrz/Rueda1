@@ -39,4 +39,15 @@
         android:scaleType="centerInside"
         app:srcCompat="@drawable/vendeta" />
 
+
+    <EditText
+        android:id="@+id/edit_message"
+        android:layout_width="match_parent"
+
+        android:layout_height="wrap_content"
+
+        android:background="@color/white"
+        android:hint="@string/defaultText"
+        android:textColor="@android:color/black" />
+
 </LinearLayout>
