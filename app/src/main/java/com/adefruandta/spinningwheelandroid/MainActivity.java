@@ -5,6 +5,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
 import android.view.View;
 import android.widget.Button;
+import android.widget.EditText;
 import android.widget.ImageButton;
 import android.widget.Toast;
 import java.util.concurrent.ThreadLocalRandom;
@@ -17,7 +18,7 @@ public class MainActivity extends AppCompatActivity implements SpinningWheelView
 
     private ImageButton rotate;
 
-
+    private Button button;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -41,7 +42,9 @@ public class MainActivity extends AppCompatActivity implements SpinningWheelView
                 wheelView.rotate(randomNum, 4000, randomNum);
             }
         });
+
     }
+
 
     @Override
     public void onRotation() {
